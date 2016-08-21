@@ -5,5 +5,5 @@ t = 'bodacious'
 # without using any quote characters in
 # your code.
 
-udacious = s[0:2] + t[3:9]
+udacious = s[0:5] + t[6:9]
 print udacious
