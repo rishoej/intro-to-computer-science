@@ -1,2 +1,2 @@
-# intro-to-computer-science
+# Intro to Computer Science
 Udacity intro to Computer Science
