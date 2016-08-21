@@ -28,15 +28,3 @@ x_string = str(x+0.5)
 find_dot = x_string.find(".")
 round_number = x_string[:find_dot]
 print round_number
-
-
-
-
-
-
-
-
-
-
-
-
