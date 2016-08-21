@@ -17,34 +17,27 @@
 # len(string). We might test your code with different markers!
 
 # Example 1
-marker_1 = "AFK"
-replacement_1 = "away from keyboard"
-line_1 = "I will now go to sleep and be AFK until lunch time tomorrow."
+marker = "AFK"
+replacement = "away from keyboard"
+line = "I will now go to sleep and be AFK until lunch time tomorrow."
 
 # Example 2 # uncomment this to test with different input
-marker_2 = "EY"
-replacement_2 = "Eyjafjallajokull"
-line_2 = "The eruption of the volcano EY in 2010 disrupted air travel in Europe for 6 days."
+#marker = "EY"
+#replacement = "Eyjafjallajokull"
+#line = "The eruption of the volcano EY in 2010 disrupted air travel in Europe for 6 days."
 
 ###
 # YOUR CODE BELOW. DO NOT DELETE THIS LINE
 ###
 
-# Answer example 1
-find_afk = line_1.find("AFK")
-first_part = line_1[0:find_afk]
-second_part = line_1[find_afk+3:]
-replaced_line_1 = first_part + replacement_1 + second_part
+find_marker = line.find(marker)
+marker_length = len(marker)
+first_part = line[0:find_marker]
+second_part = line[find_marker+marker_length:]
+replaced = first_part + replacement + second_part
 
-print replaced_line_1
-
-#Answer example 2
-find_ey = line_2.find("EY")
-first_part = line_2[0:find_ey]
-second_part = line_2[find_ey+2:]
-replaced_line_2 = first_part + replacement_2 + second_part
-
-print replaced_line_2
+#print replaced
+print replaced
 
 # Example 1 output should be:
 #>>> I will now go to sleep and be away from keyboard until lunch time tomorrow.
