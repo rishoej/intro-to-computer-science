@@ -24,7 +24,8 @@ x = 3.14159
 
 #ENTER CODE BELOW HERE
 
-x_string = str(x+0.5)
+round_up = + 0.5
+x_string = str(x+round_up)
 find_dot = x_string.find(".")
 round_number = x_string[:find_dot]
 print round_number
