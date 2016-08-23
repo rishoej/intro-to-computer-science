@@ -15,7 +15,6 @@ def biggest(a,b,c):
 
 def median(a,b,c):
     biggest = bigger(a,bigger(b,c))
-    print biggest
     if a == biggest:
         return bigger(b,c)
     if b == biggest:
